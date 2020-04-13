@@ -1,0 +1,13 @@
+setChartTitle('Sunlight Intensity Graph');
+var Graph1=new boltGraph();
+Graph1.setChartType("areaGraph");
+Graph1.setAxisName("time_stamp","value");
+Graph1.plotChart("time_stamp","value");
+var Graph2=new boltGraph();
+Graph2.setChartType("barGraph");
+Graph2.setAxisName("time_stamp","value");
+Graph2.plotChart("time_stamp","value");
+var Graph3=new boltGraph();
+Graph3.setChartType("scatterGraph");
+Graph3.setAxisName("time_stamp","value");
+Graph3.plotChart("time_stamp","value");
