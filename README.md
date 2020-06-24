@@ -9,12 +9,12 @@ It will make our life simple and easy and will also help
  us to take better care of our plants.
  
  Components:
-  BOLT IOT module
-  moisture sensor
-  LDR
+                   1.BOLT IOT module
+                   2.moisture sensor
+                   3.LDR
   
   software:
-  BOLT colud
-  BOLT app
-  intogromat 
-  twilio
+                  1.BOLT colud
+                  2.BOLT app
+                  3.intogromat 
+                  4.twilio
