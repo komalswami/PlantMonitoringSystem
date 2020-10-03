@@ -47,18 +47,18 @@ while True:
 
     try:
         if sensor_value > bound[0] :
-            print ("Anomaly Detected. Light Intensity has suddenly increased. Sending an SMS & Email.")
-            response1 = sms.send_sms("Light Intensity has suddenly increased")
-            response2 = mailer.send_email("Anomaly Alert", "Light Intensity has suddenly increased")
+            print ("Anomaly Detected. Light Intensity is showing sudden increment. Sending an SMS & Email.")
+            response1 = sms.send_sms("Light Intensity is showing sudden increment.")
+            response2 = mailer.send_email("Anomaly Alert", "Light Intensity is showing sudden increment.")
             response2_text = json.loads(response2.text)
             print("This is the response of SMS ",response1)
             print("Response received from Mailgun is: " + str(response2_text['message']))
 
             
         elif sensor_value < bound[1]:
-            print ("Anomaly Detected. Light Intensity has suddenly decreased. Sending an SMS & Email.")
-            response1 = sms.send_sms("Light Intensity has suddenly decreased")
-            response2 = mailer.send_email("Anomaly Alert", "Light Intensity has suddenly decreased")
+            print ("Anomaly Detected. Light Intensity suddenly decreased. Sending an SMS & Email.")
+            response1 = sms.send_sms("Light Intensity suddenly decreased")
+            response2 = mailer.send_email("Anomaly Alert", "Light Intensity suddenly decreased")
             response2_text = json.loads(response2.text)
             print("This is the response of SMS ",response1)
             print("Response received from Mailgun is: " + str(response2_text['message']))
