@@ -21,9 +21,9 @@ It will make our life simple and easy and will also help
                   3.intogromat 
                   4.twilio
 
-Demo video:
-<img src="https://github.com/komalswami/PlantMonitoringSystem/blob/master/worksample3.jpg" /> 
+
+<img src="https://github.com/komalswami/PlantMonitoringSystem/blob/master/worksample3.jpg" width="400"/>  <img src="https://github.com/komalswami/PlantMonitoringSystem/blob/master/worksample.jpg" width="400"/> 
+
 <br/>
-
-
+Demo video:
 https://youtu.be/PeEivk6L6EU
